@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Assurity Test Suite" verbose="1">
+
+	<parameter name="baseurl" value="https://api.tmsandbox.co.nz/v1" />
+
+	<test name="Assurity API Test">
+		<classes>
+			<class name="com.assurity.scripts.VerifyTradeMeAPIs" />
+		</classes>
+	</test>
+
+</suite>
