@@ -111,6 +111,8 @@ Full example XML:
 </suite>
 ```
 
+If the execution is not done thorough a test plan (right click and run on a test class), the baseurl value will be picked up from the `local-config.properties` file in the src/main/resources folder.
+
 
 ## Screenshots
 
